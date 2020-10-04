@@ -2,8 +2,10 @@
 
 ### AWS Best Practice Reference
 [Use IAM to Control Access](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html#use-iam-to-control-access)
+[AWS CloudFormation Service Role](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-iam-servicerole.html)
 
 ## Example Code Instructions
+Note: windows, use ^ to replace \ for line break
 
 ### Create an IAM service role
 Create an IAM role with only these permissions:

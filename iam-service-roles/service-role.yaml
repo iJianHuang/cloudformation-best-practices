@@ -5,6 +5,9 @@ Resources:
     Type: AWS::IAM::Role
     Properties:
       RoleName: cloudformation_example_service_role
+      Tags: 
+        - Key: "Delete"
+          Value: "Yes"
       AssumeRolePolicyDocument:
         Version: '2012-10-17'
         Statement:
